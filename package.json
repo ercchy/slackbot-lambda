@@ -1,0 +1,26 @@
+{
+  "name": "trello-array-slackbot",
+  "version": "0.0.1",
+  "description": "Trello updates to Slack",
+  "main": "handler.js",
+  "author": "Turtl",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^5.0.1",
+    "sinon": "^4.3.0",
+    "sinon-chai": "^2.14.0"
+  },
+  "dependencies": {
+    "@slack/client": "^4.8.0",
+    "aws-sdk": "^2.211.0",
+    "lodash": "^4.17.5",
+    "logging": "git+ssh://git@github.com:turtlco/logging.git",
+    "moment": "^2.29.1",
+    "moment-twitter": "^0.2.0",
+    "node-trello": "^1.3.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
